@@ -167,6 +167,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Mailer\ExampleEmailModel.cs" />
+    <Compile Include="Mailer\ExampleMailer.cs" />
+    <Compile Include="Mailer\IExampleMailer.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -229,6 +232,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\ExampleMailer\_Layout.cshtml" />
+    <Content Include="Views\ExampleMailer\Template1.cshtml" />
+    <Content Include="Views\ExampleMailer\Template2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
